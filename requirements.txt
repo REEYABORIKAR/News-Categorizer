@@ -3,8 +3,7 @@ numpy
 scikit-learn
 joblib
 nltk
-streamlit
+streamlit==1.31.1
 matplotlib
 seaborn
 altair<5
-imghdr
