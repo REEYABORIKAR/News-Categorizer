@@ -1,3 +1,8 @@
 pandas
-re
+numpy
 scikit-learn
+joblib
+nltk
+streamlit
+matplotlib
+seaborn
