@@ -1,0 +1,16 @@
+               precision    recall  f1-score   support
+
+     Business       0.38      0.61      0.47      1377
+Entertainment       0.54      0.65      0.59      3883
+    Lifestyle       0.88      0.75      0.81     13105
+     Politics       0.81      0.62      0.70      7423
+      Science       0.23      0.48      0.31       361
+       Sports       0.38      0.57      0.46       883
+   Technology       0.23      0.43      0.30       421
+        World       0.34      0.61      0.43       981
+
+     accuracy                           0.68     28434
+    macro avg       0.47      0.59      0.51     28434
+ weighted avg       0.74      0.68      0.70     28434
+
+Accuracy: 0.6777801223886896

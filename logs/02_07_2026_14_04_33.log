@@ -1,0 +1,12 @@
+[2026-02-07 14:04:33,528] 19 TextClassificationLogger - INFO - Loading raw JSON data from: data/raw_dataset.json 
+[2026-02-07 14:04:36,092] 27 TextClassificationLogger - INFO - Loaded JSONL format successfully 
+[2026-02-07 14:04:36,107] 43 TextClassificationLogger - INFO - Converting JSON data to pandas DataFrame 
+[2026-02-07 14:04:37,399] 45 TextClassificationLogger - INFO - Initial DataFrame shape: (209527, 6)
+[2026-02-07 14:04:37,399] 46 TextClassificationLogger - INFO - Initial columns ['link', 'headline', 'category', 'short_description', 'authors', 'date']
+[2026-02-07 14:04:37,447] 67 TextClassificationLogger - INFO - Normalized columns to: ['text','category']
+[2026-02-07 14:04:37,447] 77 TextClassificationLogger - INFO - validating DataFrame 
+[2026-02-07 14:04:37,515] 83 TextClassificationLogger - INFO - Dropped 0 rows with missing values 
+[2026-02-07 14:04:37,683] 88 TextClassificationLogger - INFO - Final DataFrame shape after validation: (189815, 2)
+[2026-02-07 14:04:37,711] 89 TextClassificationLogger - INFO - Unique categories: 42
+[2026-02-07 14:04:38,287] 102 TextClassificationLogger - INFO - Processed dataset saved to: data/dataset.csv
+[2026-02-07 14:04:38,287] 117 TextClassificationLogger - INFO - Data ingestion completed successfully 
