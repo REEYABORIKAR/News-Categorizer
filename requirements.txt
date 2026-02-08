@@ -7,3 +7,4 @@ streamlit==1.31.1
 matplotlib
 seaborn
 altair<5
+plotly
